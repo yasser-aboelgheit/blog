@@ -1,5 +1,5 @@
 Django>=3.2.13,<4.0
-# Pillow
+Pillow==9.1.0
 # pytz
 # sqlparse
 # gunicorn
@@ -10,4 +10,5 @@ Django>=3.2.13,<4.0
 # googletrans
 # django-crontab
 # django-extensions
-psycopg2-binary
+psycopg2-binary==2.9.3
+django-solo
