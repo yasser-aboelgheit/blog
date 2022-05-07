@@ -12,3 +12,4 @@ Pillow==9.1.0
 # django-extensions
 psycopg2-binary==2.9.3
 django-solo
+django-ckeditor

@@ -37,8 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'home',
     'solo.apps.SoloAppConfig',
+    'ckeditor',
+    'ckeditor_uploader',
+    
+    'home',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -154,3 +158,6 @@ TEMPLATES = [
         },
     },
 ]
+CKEDITOR_UPLOAD_PATH = "uploads/"
+MEDIA_URL = '/images/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
