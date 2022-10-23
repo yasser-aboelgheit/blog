@@ -7,6 +7,8 @@ class Article(models.Model):
     image = models.ImageField(null=True, blank=True, upload_to="images/articles")
     snippet = models.TextField(null=True, blank=True)
     content = RichTextUploadingField()
+    created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+    updated_at = models.DateTimeField(auto_now=True, null=True, blank=True)
 
     @property
     def get_snippet(self):

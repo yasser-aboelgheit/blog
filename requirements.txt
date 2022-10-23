@@ -1,15 +1,17 @@
-Django>=3.2.13,<4.0
+asgiref==3.5.2
+certifi==2022.9.24
+distlib==0.3.6
+Django==3.2.16
+django-ckeditor==6.5.1
+django-js-asset==2.0.0
+django-solo==2.0.0
+filelock==3.8.0
+gunicorn==19.9.0
 Pillow==9.1.0
-# pytz
-# sqlparse
-# gunicorn
-# django-heroku
-# django-storages
-# boto3
-# xlrd
-# googletrans
-# django-crontab
-# django-extensions
+pipenv==2022.10.12
+platformdirs==2.5.2
 psycopg2-binary==2.9.3
-django-solo
-django-ckeditor
+pytz==2022.5
+sqlparse==0.4.3
+virtualenv==20.16.5
+virtualenv-clone==0.5.7
